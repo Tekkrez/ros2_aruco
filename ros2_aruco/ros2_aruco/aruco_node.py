@@ -207,7 +207,6 @@ class ArucoNode(rclpy.node.Node):
             self.poses_pub.publish(pose_array)
             self.markers_pub.publish(markers)
 
-
 def main():
     rclpy.init()
     node = ArucoNode()
